@@ -2,9 +2,9 @@
 
 I'm an undergraduate computer engineering student at the University of Illinois Urbana-Champaign who does a fair amount of coding and playing around with Arudinos. Currently learning how to build solar electricity grids, how to use PHP and MySQL within a LAMP stack, and how to use React, Tailwind CSS, and more through Next.JS. Always looking to learn new things about programming, engineering, or music playing.
 
-📫 How to reach me: scott7gilbert@gmail.com / +1 (630) 334-6598
-😄 Pronouns: He/Him
-⚡ Fun fact: I can play five different national anthems on the trombone!
+- 📫 How to reach me: scott7gilbert@gmail.com / +1 (630) 334-6598
+- 😄 Pronouns: He/Him
+- ⚡ Fun fact: I can play five different national anthems on the trombone!
 
 <!--
 **ScottJGilbert/ScottJGilbert** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
