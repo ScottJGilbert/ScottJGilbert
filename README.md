@@ -7,6 +7,16 @@ I'm an undergraduate computer engineering student at the University of Illinois 
 - 😄 Pronouns: He/Him
 - ⚡ Fun fact: I can play five different national anthems on the trombone!
 
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,ts,nextjs,react,tailwind,npm,pnpm,git,github,nodejs,postgres,mysql,vercel,vite,bash,linux,md,java,c,py,docker)]()
+
+
+<div align=center>
+  <span><img width=330 src="https://github-readme-stats-scott-gilbert.vercel.app/api/top-langs/?username=ScottJGilbert&langs_count=8&layout=compact&theme=dark&border_radius=10&hide_border=true" alt="top langs" /></span>
+  <span><img height="180" src="https://github-readme-stats-scott-gilbert.vercel.app/api/wakatime?username=ScottJGilbert&layout=compact&langs_count=6&theme=dark&border_radius=10&hide_border=true" /></span>
+  <span><img width=410  src="https://github-readme-stats-scott-gilbert.vercel.app/api?username=ScottJGilbert&count_private=true&show_icons=true&theme=dark&rank_icon=github&hide_border=true&border_radius=10" alt="readme stats" /></span>
+  <span><img width=430 src="https://github-readme-stats-scott-gilbert.vercel.app/?user=ScottJGilbert&count_private=true&theme=dark&hide_border=true&border_radius=10&card_width=495" alt="streak stats"/></span>
+</div>
+
 <!--
 **ScottJGilbert/ScottJGilbert** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
