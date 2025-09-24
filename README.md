@@ -3,7 +3,7 @@
 I'm an undergraduate computer engineering student at the University of Illinois Urbana-Champaign who does a fair amount of coding and playing around with Arudinos. Currently learning how to build solar electricity grids, how to deploy a LAMP stack, and how to use React, Tailwind CSS, PostgreSQL, Zod, and more through Next.JS. Always looking to learn new things about programming, engineering, or music playing.
 
 - 🔭 I’m currently working on surviving college, updating my portfolio, and advancing my career.
-- 📫 How to reach me: scott7gilbert@gmail.com **OR** fill out the form on my website
+- 📫 How to reach me: scott7gilbert@gmail.com
 - 😄 Pronouns: He/Him
 - ⚡ Fun fact: I can play five different national anthems on the trombone!
 
