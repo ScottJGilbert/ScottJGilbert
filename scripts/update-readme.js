@@ -24,27 +24,30 @@ async function main() {
     const imageRes = await fetch(url);
     let contentType = imageRes.headers.get("content-type");
 
+    // Cache the buffer once to avoid reusing the body
+    const arrayBuffer = await imageRes.arrayBuffer();
+    let imageBuffer = Buffer.from(arrayBuffer);
+
     // If content-type is missing, try to detect from file contents (magic number)
-    let imageBuffer = Buffer.from(await imageRes.arrayBuffer());
     if (!contentType) {
       // PNG: 89 50 4E 47 0D 0A 1A 0A
       if (
         imageBuffer
-          .slice(0, 8)
+          .subarray(0, 8)
           .equals(Buffer.from([0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a]))
       ) {
         contentType = "image/png";
       }
       // JPEG: FF D8 FF
       else if (
-        imageBuffer.slice(0, 3).equals(Buffer.from([0xff, 0xd8, 0xff]))
+        imageBuffer.subarray(0, 3).equals(Buffer.from([0xff, 0xd8, 0xff]))
       ) {
         contentType = "image/jpeg";
       }
       // SVG: starts with <svg or <?xml
       else if (
-        imageBuffer.slice(0, 100).toString().includes("<svg") ||
-        imageBuffer.slice(0, 100).toString().includes("<?xml")
+        imageBuffer.subarray(0, 100).toString().includes("<svg") ||
+        imageBuffer.subarray(0, 100).toString().includes("<?xml")
       ) {
         contentType = "image/svg+xml";
       }
@@ -54,7 +57,9 @@ async function main() {
     let inputBuffer;
     if (contentType && contentType.includes("svg")) {
       // SVG: get text and convert to buffer with utf-8 encoding
-      const svgText = await imageRes.text();
+      // Need to refetch as text since buffer is binary
+      const svgTextRes = await fetch(url);
+      const svgText = await svgTextRes.text();
       inputBuffer = Buffer.from(svgText, "utf-8");
       // Convert SVG to PNG first
       await sharp(inputBuffer)
@@ -62,8 +67,8 @@ async function main() {
         .png()
         .toFile(outputPath);
     } else {
-      // Other image types: get buffer directly
-      inputBuffer = Buffer.from(await imageRes.arrayBuffer());
+      // Other image types: use cached buffer directly
+      inputBuffer = imageBuffer;
       await sharp(inputBuffer)
         .resize(200, 200, { fit: "contain", background: "#f0f0f0" })
         .png()
