@@ -19,6 +19,7 @@ async function main() {
 
       if (url.includes("white")) {
         url.slice(0, url.indexOf("white") - 1);
+        console.log("HI");
       }
 
       // Use last part of URL as alt if not provided
