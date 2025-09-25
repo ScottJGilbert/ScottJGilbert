@@ -13,11 +13,11 @@
 
 - 💬 Ask me about **Full-Stack Development or Arduinoes**
 
-- 📫 How to reach me **scott7gilbert@gmail.com**
+- 📫 How to reach me: **scott7gilbert@gmail.com**
 
-- 📄 Know about my experiences [https://scott-gilbert.vercel.app/resume](https://scott-gilbert.vercel.app/resume)
+- 📄 View my resume: [https://scott-gilbert.vercel.app/resume](https://scott-gilbert.vercel.app/resume)
 
-- ⚡ Fun fact **I can play five different national anthems on the trombone!**
+- ⚡ Fun fact: **I can play five different national anthems on the trombone!**
 
 ---
 
