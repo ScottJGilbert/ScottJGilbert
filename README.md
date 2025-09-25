@@ -53,7 +53,9 @@
 <img src="https://cdn.simpleicons.org/npm" alt="npm" width="32" style="border-radius: 8px; background-color: #000000;" />
 <img src="https://cdn.simpleicons.org/pnpm" alt="pnpm" width="32" style="border-radius: 8px; background-color: #000000;" />
 </div>
-<!-- IMAGES-END -->---
+<!-- IMAGES-END -->
+
+---
 
 ### Blog posts
 
