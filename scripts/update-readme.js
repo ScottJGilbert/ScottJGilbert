@@ -16,6 +16,11 @@ async function main() {
   const htmlImages = data
     .map((item) => {
       const url = item.image_url;
+
+      if (url.includes("white")) {
+        url.slice(0, url.indexOf("white") - 1);
+      }
+
       // Use last part of URL as alt if not provided
       const alt = item.alt || url.split("/").pop().split("?")[0];
       return `<img src="${url}" alt="${alt}" width="32" style="border-radius: 8px;" />`;
