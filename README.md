@@ -52,7 +52,9 @@
 <img src="https://cdn.simpleicons.org/npm" alt="npm" width="32" style="border-radius:8px;" />
 <img src="https://cdn.simpleicons.org/pnpm" alt="pnpm" width="32" style="border-radius:8px;" />
 </div>
-<!-- IMAGES-END -->### Blogs posts
+<!-- IMAGES-END -->
+
+### Blog posts
 
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
