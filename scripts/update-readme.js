@@ -20,38 +20,41 @@ async function main() {
     const fileName = `${alt.replace(/\s+/g, "_")}.png`;
     const outputPath = path.join(outputDir, fileName);
 
-    // Fetch the image once
-    const imageRes = await fetch(url);
-    const arrayBuffer = await imageRes.arrayBuffer();
-    const buffer = Buffer.from(arrayBuffer);
-    const contentType = imageRes.headers.get("content-type") || "";
+    try {
+      // Fetch image once
+      const imageRes = await fetch(url);
+      const arrayBuffer = await imageRes.arrayBuffer();
+      const buffer = Buffer.from(arrayBuffer);
 
-    let inputBuffer;
+      if (buffer.length === 0) {
+        console.warn(`⚠️ Skipping ${url}: empty buffer`);
+        continue;
+      }
 
-    // Robust SVG detection
-    const isSvg =
-      contentType.includes("svg") || // server says SVG
-      url.endsWith(".svg") || // URL ends with .svg
-      buffer.subarray(0, 100).toString().includes("<svg"); // sniff first 100 bytes
+      // Robust SVG detection: sniff first 500 bytes
+      const snippet = buffer.subarray(0, 500).toString("utf-8");
+      const isSvg = snippet.includes("<svg");
 
-    if (isSvg) {
-      // Convert SVG text to buffer
-      const svgText = buffer.toString("utf-8");
-      inputBuffer = Buffer.from(svgText, "utf-8");
-    } else {
-      // Raster image
-      inputBuffer = buffer;
+      let inputBuffer;
+      if (isSvg) {
+        inputBuffer = Buffer.from(snippet, "utf-8");
+      } else {
+        inputBuffer = buffer;
+      }
+
+      // Convert to PNG with gray background
+      await sharp(inputBuffer)
+        .resize(200, 200, { fit: "contain", background: "#f0f0f0" })
+        .png()
+        .toFile(outputPath);
+
+      htmlImages.push(
+        `<img src="assets/generated-images/${fileName}" alt="${alt}" width="200" style="border-radius:8px;" />`
+      );
+    } catch (err) {
+      console.warn(`⚠️ Failed to process ${url}: ${err.message}`);
+      continue; // skip this image
     }
-
-    // Convert to PNG with gray background
-    await sharp(inputBuffer)
-      .resize(200, 200, { fit: "contain", background: "#f0f0f0" })
-      .png()
-      .toFile(outputPath);
-
-    htmlImages.push(
-      `<img src="assets/generated-images/${fileName}" alt="${alt}" width="200" style="border-radius:8px;" />`
-    );
   }
 
   // Wrap in flexbox div
@@ -71,9 +74,7 @@ async function main() {
     : readme + "\n\n" + replacement;
   fs.writeFileSync(readmePath, readme);
 
-  console.log(
-    "✅ README updated with images (SVGs always processed correctly)"
-  );
+  console.log("✅ README updated with images (SVGs handled robustly)");
 }
 
 main().catch(console.error);
