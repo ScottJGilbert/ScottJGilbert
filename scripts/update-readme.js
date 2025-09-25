@@ -22,7 +22,34 @@ async function main() {
 
     // Fetch original image buffer
     const imageRes = await fetch(url);
-    const contentType = imageRes.headers.get("content-type");
+    let contentType = imageRes.headers.get("content-type");
+
+    // If content-type is missing, try to detect from file contents (magic number)
+    let imageBuffer = Buffer.from(await imageRes.arrayBuffer());
+    if (!contentType) {
+      // PNG: 89 50 4E 47 0D 0A 1A 0A
+      if (
+        imageBuffer
+          .slice(0, 8)
+          .equals(Buffer.from([0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a]))
+      ) {
+        contentType = "image/png";
+      }
+      // JPEG: FF D8 FF
+      else if (
+        imageBuffer.slice(0, 3).equals(Buffer.from([0xff, 0xd8, 0xff]))
+      ) {
+        contentType = "image/jpeg";
+      }
+      // SVG: starts with <svg or <?xml
+      else if (
+        imageBuffer.slice(0, 100).toString().includes("<svg") ||
+        imageBuffer.slice(0, 100).toString().includes("<?xml")
+      ) {
+        contentType = "image/svg+xml";
+      }
+      // Add more types as needed
+    }
 
     let inputBuffer;
     if (contentType && contentType.includes("svg")) {
