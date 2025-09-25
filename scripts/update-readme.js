@@ -18,7 +18,7 @@ async function main() {
       const url = item.image_url;
       // Use last part of URL as alt if not provided
       const alt = item.alt || url.split("/").pop().split("?")[0];
-      return `<img src="${url}" alt="${alt}" width="32" style="border-radius:8px;" />`;
+      return `<img src="${url}" alt="${alt}" width="32" style="border-radius: 8px; background-color: #858585ff; padding: 8px;" />`;
     })
     .join("\n");
 
