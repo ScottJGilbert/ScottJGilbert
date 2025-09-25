@@ -1,7 +1,9 @@
 <h1 align="center">Hi there 👋, I'm Scott!</h1>
 <h3 align="center">I'm an undergraduate computer engineering student at the University of Illinois Urbana-Champaign.</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=scottjgilbert&label=Profile%20views&color=0e75b6&style=flat" alt="scottjgilbert" /> </p>
+
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=scottjgilbert&label=Profile%20views&color=0e75b6&style=flat" alt="scottjgilbert" /> </p>
+
 
 - 🔭 I’m currently working on **updating my portfolio**
 
