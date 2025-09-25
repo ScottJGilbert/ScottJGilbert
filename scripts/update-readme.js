@@ -18,7 +18,7 @@ async function main() {
       const url = item.image_url;
 
       if (url.includes("white")) {
-        yrl = url.slice(0, url.indexOf("white") - 1);
+        url = url.slice(0, url.indexOf("white") - 1);
       }
 
       // Use last part of URL as alt if not provided
