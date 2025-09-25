@@ -33,7 +33,7 @@ ${htmlImages}
   // Replace section between markers
   const start = "<!-- IMAGES-START -->";
   const end = "<!-- IMAGES-END -->";
-  const regex = new RegExp(`${start}[\s\S]*${end}`);
+  const regex = new RegExp(`\\s*${start}[\\s\\S]*?${end}\\s*`);
 
   const replacement = `${start}\n${html}\n${end}`;
   readme = regex.test(readme)
