@@ -25,8 +25,9 @@ async function main() {
     const buffer = await imageRes.arrayBuffer();
 
     // Generate new image with gray background
-    await sharp(Buffer.from(buffer))
-      .resize(200, 200, { fit: "contain", background: "#000000" })
+    const text = await imageRes.text(); // get SVG XML
+    await sharp(Buffer.from(text))
+      .resize(200, 200, { fit: "contain", background: "#f0f0f0" })
       .png()
       .toFile(outputPath);
 
