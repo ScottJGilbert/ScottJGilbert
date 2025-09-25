@@ -24,6 +24,38 @@
 ### My skills
 
 <!-- IMAGES-START -->
+
+    <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+      <img src="https://cdn.simpleicons.org/typescript" alt="TypeScript" width="200" style="border-radius:8px;" />
+  <img src="https://cdn.simpleicons.org/javascript" alt="JavaScript" width="200" style="border-radius:8px;" />
+  <img src="https://cdn.simpleicons.org/django/white" alt="Django" width="200" style="border-radius:8px;" />
+  <img src="https://cdn.simpleicons.org/python" alt="Python" width="200" style="border-radius:8px;" />
+  <img src="https://cdn.simpleicons.org/react" alt="React" width="200" style="border-radius:8px;" />
+  <img src="https://cdn.simpleicons.org/postgresql/white" alt="PostgreSQL" width="200" style="border-radius:8px;" />
+  <img src="https://cdn.simpleicons.org/mysql/white" alt="MySQL" width="200" style="border-radius:8px;" />
+  <img src="https://cdn.simpleicons.org/sqlite/white" alt="SQLite" width="200" style="border-radius:8px;" />
+  <img src="https://cdn.simpleicons.org/html5" alt="HTML" width="200" style="border-radius:8px;" />
+  <img src="https://m9mv2a6pya.ufs.sh/f/W9HqZMlcXCSfvH4gw9jDfraKjJQgNYemFl0uOyXqS6BnhwCP" alt="SQL" width="200" style="border-radius:8px;" />
+  <img src="https://cdn.simpleicons.org/nodedotjs" alt="Node.js" width="200" style="border-radius:8px;" />
+  <img src="https://cdn.simpleicons.org/php/white" alt="PHP" width="200" style="border-radius:8px;" />
+  <img src="https://cdn.simpleicons.org/vercel/white" alt="Vercel" width="200" style="border-radius:8px;" />
+  <img src="https://cdn.simpleicons.org/nextdotjs/white" alt="Next.js" width="200" style="border-radius:8px;" />
+  <img src="https://cdn.simpleicons.org/git" alt="Git" width="200" style="border-radius:8px;" />
+  <img src="https://cdn.simpleicons.org/linux" alt="Linux" width="200" style="border-radius:8px;" />
+  <img src="https://cdn.simpleicons.org/ubuntu" alt="Ubuntu" width="200" style="border-radius:8px;" />
+  <img src="https://cdn.simpleicons.org/openai/white" alt="OpenAI" width="200" style="border-radius:8px;" />
+  <img src="https://cdn.simpleicons.org/tailwindcss" alt="Tailwind CSS" width="200" style="border-radius:8px;" />
+  <img src="https://cdn.simpleicons.org/markdown/white" alt="Markdown" width="200" style="border-radius:8px;" />
+  <img src="https://cdn.simpleicons.org/docker" alt="Docker" width="200" style="border-radius:8px;" />
+  <img src="https://cdn.simpleicons.org/nginx" alt="NGINX" width="200" style="border-radius:8px;" />
+  <img src="https://cdn.simpleicons.org/apache" alt="Apache" width="200" style="border-radius:8px;" />
+  <img src="https://cdn.simpleicons.org/zod/white" alt="Zod" width="200" style="border-radius:8px;" />
+  <img src="https://cdn.simpleicons.org/arduino" alt="Arduino" width="200" style="border-radius:8px;" />
+  <img src="https://cdn.simpleicons.org/github/white" alt="GitHub" width="200" style="border-radius:8px;" />
+  <img src="https://m9mv2a6pya.ufs.sh/f/W9HqZMlcXCSfCqMH29gncWmaPg8GTnO3xKjof5edwN0XEYVh" alt="Java" width="200" style="border-radius:8px;" />
+  <img src="https://cdn.simpleicons.org/npm" alt="npm" width="200" style="border-radius:8px;" />
+  <img src="https://cdn.simpleicons.org/pnpm" alt="pnpm" width="200" style="border-radius:8px;" />
+    </div>
 <!-- IMAGES-END -->
 
 ### Blogs posts
