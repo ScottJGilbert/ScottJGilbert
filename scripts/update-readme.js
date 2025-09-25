@@ -18,12 +18,12 @@ async function main() {
       const url = item.image_url;
       // Use last part of URL as alt if not provided
       const alt = item.alt || url.split("/").pop().split("?")[0];
-      return `<img src="${url}" alt="${alt}" width="32" style="border-radius: 8px; background-color: #858585; padding: 8px;" />`;
+      return `<img src="${url}" alt="${alt}" width="32" style="border-radius: 8px; background-color: #000000;" />`;
     })
     .join("\n");
 
   // Wrap in flexbox div with no extra indentation
-  const html = `<div style="display:flex; flex-wrap:wrap; gap:10px; background-color: #858585; border-radius: 8px;">
+  const html = `<div style="display:flex; flex-wrap:wrap; background-color: #000000; border-radius: 8px;">
 ${htmlImages}
 </div>`;
 
