@@ -41,38 +41,3 @@
 <p>&nbsp;<img align="center" src="https://github-readme-stats-scott-gilbert.vercel.app/api?username=scottjgilbert&show_icons=true&locale=en" alt="scottjgilbert" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=scottjgilbert&" alt="scottjgilbert" /></p> -->
-
-
-<!-- IMAGES-START -->
-<div style="display:flex; flex-wrap:wrap; gap:10px;">
-<img src="https://cdn.simpleicons.org/typescript" alt="typescript" width="32" style="border-radius:8px;" />
-<img src="https://cdn.simpleicons.org/javascript" alt="javascript" width="32" style="border-radius:8px;" />
-<img src="https://cdn.simpleicons.org/django/white" alt="white" width="32" style="border-radius:8px;" />
-<img src="https://cdn.simpleicons.org/python" alt="python" width="32" style="border-radius:8px;" />
-<img src="https://cdn.simpleicons.org/react" alt="react" width="32" style="border-radius:8px;" />
-<img src="https://cdn.simpleicons.org/postgresql/white" alt="white" width="32" style="border-radius:8px;" />
-<img src="https://cdn.simpleicons.org/mysql/white" alt="white" width="32" style="border-radius:8px;" />
-<img src="https://cdn.simpleicons.org/sqlite/white" alt="white" width="32" style="border-radius:8px;" />
-<img src="https://cdn.simpleicons.org/html5" alt="html5" width="32" style="border-radius:8px;" />
-<img src="https://m9mv2a6pya.ufs.sh/f/W9HqZMlcXCSfvH4gw9jDfraKjJQgNYemFl0uOyXqS6BnhwCP" alt="W9HqZMlcXCSfvH4gw9jDfraKjJQgNYemFl0uOyXqS6BnhwCP" width="32" style="border-radius:8px;" />
-<img src="https://cdn.simpleicons.org/nodedotjs" alt="nodedotjs" width="32" style="border-radius:8px;" />
-<img src="https://cdn.simpleicons.org/php/white" alt="white" width="32" style="border-radius:8px;" />
-<img src="https://cdn.simpleicons.org/vercel/white" alt="white" width="32" style="border-radius:8px;" />
-<img src="https://cdn.simpleicons.org/nextdotjs/white" alt="white" width="32" style="border-radius:8px;" />
-<img src="https://cdn.simpleicons.org/git" alt="git" width="32" style="border-radius:8px;" />
-<img src="https://cdn.simpleicons.org/linux" alt="linux" width="32" style="border-radius:8px;" />
-<img src="https://cdn.simpleicons.org/ubuntu" alt="ubuntu" width="32" style="border-radius:8px;" />
-<img src="https://cdn.simpleicons.org/openai/white" alt="white" width="32" style="border-radius:8px;" />
-<img src="https://cdn.simpleicons.org/tailwindcss" alt="tailwindcss" width="32" style="border-radius:8px;" />
-<img src="https://cdn.simpleicons.org/markdown/white" alt="white" width="32" style="border-radius:8px;" />
-<img src="https://cdn.simpleicons.org/docker" alt="docker" width="32" style="border-radius:8px;" />
-<img src="https://cdn.simpleicons.org/nginx" alt="nginx" width="32" style="border-radius:8px;" />
-<img src="https://cdn.simpleicons.org/apache" alt="apache" width="32" style="border-radius:8px;" />
-<img src="https://cdn.simpleicons.org/zod/white" alt="white" width="32" style="border-radius:8px;" />
-<img src="https://cdn.simpleicons.org/arduino" alt="arduino" width="32" style="border-radius:8px;" />
-<img src="https://cdn.simpleicons.org/github/white" alt="white" width="32" style="border-radius:8px;" />
-<img src="https://m9mv2a6pya.ufs.sh/f/W9HqZMlcXCSfCqMH29gncWmaPg8GTnO3xKjof5edwN0XEYVh" alt="W9HqZMlcXCSfCqMH29gncWmaPg8GTnO3xKjof5edwN0XEYVh" width="32" style="border-radius:8px;" />
-<img src="https://cdn.simpleicons.org/npm" alt="npm" width="32" style="border-radius:8px;" />
-<img src="https://cdn.simpleicons.org/pnpm" alt="pnpm" width="32" style="border-radius:8px;" />
-</div>
-<!-- IMAGES-END -->
