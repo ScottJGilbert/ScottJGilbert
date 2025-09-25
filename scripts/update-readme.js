@@ -23,7 +23,7 @@ async function main() {
     .join("\n");
 
   // Wrap in flexbox div with no extra indentation
-  const html = `<div style="display:flex; flex-wrap:wrap; gap:10px;">
+  const html = `<div style="display:flex; flex-wrap:wrap; gap:10px; background-color: #858585ff; border-radius: 8px;">
 ${htmlImages}
 </div>`;
 
