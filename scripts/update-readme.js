@@ -22,10 +22,20 @@ async function main() {
 
     // Fetch original image buffer
     const imageRes = await fetch(url);
+    const contentType = imageRes.headers.get("content-type");
+
+    let inputBuffer;
+    if (contentType && contentType.includes("svg")) {
+      // SVG: get text and convert to buffer
+      const svgText = await imageRes.text();
+      inputBuffer = Buffer.from(svgText);
+    } else {
+      // Other image types: get buffer directly
+      inputBuffer = await imageRes.buffer();
+    }
 
     // Generate new image with gray background
-    const text = await imageRes.text(); // get SVG XML
-    await sharp(Buffer.from(text))
+    await sharp(inputBuffer)
       .resize(200, 200, { fit: "contain", background: "#f0f0f0" })
       .png()
       .toFile(outputPath);
