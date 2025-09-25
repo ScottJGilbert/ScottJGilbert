@@ -20,10 +20,10 @@ async function main() {
   // Build HTML <img> tags (example: fixed width 200px each)
   const html = `
     <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-      ${urls
+      ${data
         .map(
-          (url) =>
-            `<img src="${url}" alt="${item.name}" width="200" style="border-radius:8px;" />`
+          (item) =>
+            `<img src="${item.image_url}" alt="${item.name}" width="200" style="border-radius:8px;" />`
         )
         .join("\n  ")}
     </div>`;
