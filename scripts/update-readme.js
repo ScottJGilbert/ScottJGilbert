@@ -12,6 +12,8 @@ async function main() {
   if (!res.ok) throw new Error(`Failed to fetch ${API_URL}: ${res.status}`);
   const data = await res.json();
 
+  console.log(data);
+
   // Extract image URLs
   const urls = data.map((item) => item.image_url);
 
