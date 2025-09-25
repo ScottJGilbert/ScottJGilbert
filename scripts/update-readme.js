@@ -15,7 +15,7 @@ async function main() {
   // Extract image URLs and optional alt text (fallback to filename)
   const htmlImages = data
     .map((item) => {
-      const url = item.image_url;
+      let url = item.image_url;
 
       if (url.includes("white")) {
         url = url.slice(0, url.indexOf("white") - 1);
