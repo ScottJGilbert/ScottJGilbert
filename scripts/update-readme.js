@@ -20,60 +20,34 @@ async function main() {
     const fileName = `${alt.replace(/\s+/g, "_")}.png`;
     const outputPath = path.join(outputDir, fileName);
 
-    // Fetch original image buffer
+    // Fetch the image once
     const imageRes = await fetch(url);
-    let contentType = imageRes.headers.get("content-type");
-
-    // Cache the buffer once to avoid reusing the body
     const arrayBuffer = await imageRes.arrayBuffer();
-    let imageBuffer = Buffer.from(arrayBuffer);
-
-    // If content-type is missing, try to detect from file contents (magic number)
-    if (!contentType) {
-      // PNG: 89 50 4E 47 0D 0A 1A 0A
-      if (
-        imageBuffer
-          .subarray(0, 8)
-          .equals(Buffer.from([0x89, 0x50, 0x4e, 0x47, 0x0d, 0x0a, 0x1a, 0x0a]))
-      ) {
-        contentType = "image/png";
-      }
-      // JPEG: FF D8 FF
-      else if (
-        imageBuffer.subarray(0, 3).equals(Buffer.from([0xff, 0xd8, 0xff]))
-      ) {
-        contentType = "image/jpeg";
-      }
-      // SVG: starts with <svg or <?xml
-      else if (
-        imageBuffer.subarray(0, 100).toString().includes("<svg") ||
-        imageBuffer.subarray(0, 100).toString().includes("<?xml")
-      ) {
-        contentType = "image/svg+xml";
-      }
-      // Add more types as needed
-    }
+    const buffer = Buffer.from(arrayBuffer);
+    const contentType = imageRes.headers.get("content-type") || "";
 
     let inputBuffer;
-    if (contentType && contentType.includes("svg")) {
-      // SVG: get text and convert to buffer with utf-8 encoding
-      // Always fetch SVG as text, not binary
-      const svgTextRes = await fetch(url);
-      const svgText = await svgTextRes.text();
+
+    // Robust SVG detection
+    const isSvg =
+      contentType.includes("svg") || // server says SVG
+      url.endsWith(".svg") || // URL ends with .svg
+      buffer.subarray(0, 100).toString().includes("<svg"); // sniff first 100 bytes
+
+    if (isSvg) {
+      // Convert SVG text to buffer
+      const svgText = buffer.toString("utf-8");
       inputBuffer = Buffer.from(svgText, "utf-8");
-      // Convert SVG to PNG first
-      await sharp(inputBuffer)
-        .resize(200, 200, { fit: "contain", background: "#f0f0f0" })
-        .png()
-        .toFile(outputPath);
     } else {
-      // Other image types: use cached buffer directly
-      inputBuffer = imageBuffer;
-      await sharp(inputBuffer)
-        .resize(200, 200, { fit: "contain", background: "#f0f0f0" })
-        .png()
-        .toFile(outputPath);
+      // Raster image
+      inputBuffer = buffer;
     }
+
+    // Convert to PNG with gray background
+    await sharp(inputBuffer)
+      .resize(200, 200, { fit: "contain", background: "#f0f0f0" })
+      .png()
+      .toFile(outputPath);
 
     htmlImages.push(
       `<img src="assets/generated-images/${fileName}" alt="${alt}" width="200" style="border-radius:8px;" />`
@@ -97,7 +71,9 @@ async function main() {
     : readme + "\n\n" + replacement;
   fs.writeFileSync(readmePath, readme);
 
-  console.log("✅ README updated with images with gray backgrounds");
+  console.log(
+    "✅ README updated with images (SVGs always processed correctly)"
+  );
 }
 
 main().catch(console.error);
