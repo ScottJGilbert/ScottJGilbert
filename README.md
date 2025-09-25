@@ -3,6 +3,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=scottjgilbert&label=Profile%20views&color=0e75b6&style=flat" alt="scottjgilbert" /> </p>
 
+
 - 🔭 I’m currently working on **updating my portfolio**
 
 - 🌱 I’m currently learning **C, C++, and just general electronics design**
