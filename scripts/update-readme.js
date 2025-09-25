@@ -22,7 +22,6 @@ async function main() {
 
     // Fetch original image buffer
     const imageRes = await fetch(url);
-    const buffer = await imageRes.arrayBuffer();
 
     // Generate new image with gray background
     const text = await imageRes.text(); // get SVG XML
