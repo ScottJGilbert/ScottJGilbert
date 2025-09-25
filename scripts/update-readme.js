@@ -1,52 +1,58 @@
-// Fixed version of update-readme.js for GitHub README flexbox rendering
 import fs from "fs";
 import path from "path";
+import fetch from "node-fetch";
+import sharp from "sharp";
 
 const API_URL = "https://scott-gilbert.vercel.app/api/fetch-skills";
+const outputDir = path.resolve("assets/generated-images");
+
+if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
 
 async function main() {
-  const readmePath = path.resolve("README.md");
-
-  // Fetch JSON data
   const res = await fetch(API_URL);
-  if (!res.ok) throw new Error(`Failed to fetch ${API_URL}: ${res.status}`);
   const data = await res.json();
 
-  // Extract image URLs and optional alt text (fallback to filename)
-  const htmlImages = data
-    .map((item) => {
-      const url = item.image_url;
-      // Use last part of URL as alt if not provided
-      const alt = item.alt || url.split("/").pop().split("?")[0];
-      return `<img src="${url}" alt="${alt}" width="32" style="border-radius: 8px; background-color: #000000;" />`;
-    })
-    .join("\n");
+  const htmlImages = [];
 
-  // Wrap in flexbox div with no extra indentation
-  const html = `<div style="display:flex; flex-wrap:wrap; background-color: #000000; border-radius: 8px;">
-${htmlImages}
-</div>`;
+  for (const item of data) {
+    const url = item.image_url;
+    const alt = item.alt || url.split("/").pop().split("?")[0];
+    const fileName = `${alt.replace(/\s+/g, "_")}.png`;
+    const outputPath = path.join(outputDir, fileName);
 
-  // Read README
+    // Fetch original image buffer
+    const imageRes = await fetch(url);
+    const buffer = await imageRes.arrayBuffer();
+
+    // Generate new image with gray background
+    await sharp(Buffer.from(buffer))
+      .resize(200, 200, { fit: "contain", background: "#000000" })
+      .png()
+      .toFile(outputPath);
+
+    htmlImages.push(
+      `<img src="assets/generated-images/${fileName}" alt="${alt}" width="200" style="border-radius:8px;" />`
+    );
+  }
+
+  // Wrap in flexbox div
+  const html = `<div style="display:flex; flex-wrap:wrap; gap:10px;">\n${htmlImages.join(
+    "\n"
+  )}\n</div>`;
+
+  // Update README
+  const readmePath = path.resolve("README.md");
   let readme = fs.readFileSync(readmePath, "utf-8");
-
-  // Replace section between markers
   const start = "<!-- IMAGES-START -->";
   const end = "<!-- IMAGES-END -->";
   const regex = new RegExp(`\\s*${start}[\\s\\S]*?${end}\\s*`);
-
-  const replacement = `${start}\n${html}\n${end}\n\n`;
+  const replacement = `${start}\n${html}\n${end}`;
   readme = regex.test(readme)
     ? readme.replace(regex, replacement)
     : readme + "\n\n" + replacement;
-
   fs.writeFileSync(readmePath, readme);
-  console.log(
-    "✅ README updated with images from API (flexbox, fixed formatting)"
-  );
+
+  console.log("✅ README updated with images with gray backgrounds");
 }
 
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
+main().catch(console.error);
