@@ -35,7 +35,7 @@ ${htmlImages}
   const end = "<!-- IMAGES-END -->";
   const regex = new RegExp(`\\s*${start}[\\s\\S]*?${end}\\s*`);
 
-  const replacement = `${start}\n${html}\n${end}`;
+  const replacement = `${start}\n${html}\n${end}\n\n`;
   readme = regex.test(readme)
     ? readme.replace(regex, replacement)
     : readme + "\n\n" + replacement;
