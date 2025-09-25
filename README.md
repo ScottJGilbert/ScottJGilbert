@@ -20,7 +20,7 @@
 - ⚡ Fun fact **I can play five different national anthems on the trombone!**
 
 ### My skills<!-- IMAGES-START -->
-<div style="display:flex; flex-wrap:wrap; gap:10px;">
+<div style="display:flex; flex-wrap:wrap; gap:10px; background-color: #858585ff; border-radius: 8px;">
 <img src="https://cdn.simpleicons.org/typescript" alt="typescript" width="32" style="border-radius: 8px; background-color: #858585ff; padding: 8px;" />
 <img src="https://cdn.simpleicons.org/javascript" alt="javascript" width="32" style="border-radius: 8px; background-color: #858585ff; padding: 8px;" />
 <img src="https://cdn.simpleicons.org/django/white" alt="white" width="32" style="border-radius: 8px; background-color: #858585ff; padding: 8px;" />
