@@ -57,7 +57,7 @@ async function main() {
     let inputBuffer;
     if (contentType && contentType.includes("svg")) {
       // SVG: get text and convert to buffer with utf-8 encoding
-      // Need to refetch as text since buffer is binary
+      // Always fetch SVG as text, not binary
       const svgTextRes = await fetch(url);
       const svgText = await svgTextRes.text();
       inputBuffer = Buffer.from(svgText, "utf-8");
