@@ -60,6 +60,7 @@
 ### Blog posts
 
 <!-- BLOG-POST-LIST:START -->
+- [The Start of College](https://scott-gilbert.vercel.app/blog/the-start-of-college)
 <!-- BLOG-POST-LIST:END -->
 
 <!-- <h3 align="left">Connect with me:</h3>
