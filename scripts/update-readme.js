@@ -26,19 +26,22 @@ async function main() {
 
     let inputBuffer;
     if (contentType && contentType.includes("svg")) {
-      // SVG: get text and convert to buffer
+      // SVG: get text and convert to buffer with utf-8 encoding
       const svgText = await imageRes.text();
-      inputBuffer = Buffer.from(svgText);
+      inputBuffer = Buffer.from(svgText, "utf-8");
+      // Convert SVG to PNG first
+      await sharp(inputBuffer)
+        .resize(200, 200, { fit: "contain", background: "#f0f0f0" })
+        .png()
+        .toFile(outputPath);
     } else {
       // Other image types: get buffer directly
-      inputBuffer = await imageRes.buffer();
+      inputBuffer = Buffer.from(await imageRes.arrayBuffer());
+      await sharp(inputBuffer)
+        .resize(200, 200, { fit: "contain", background: "#f0f0f0" })
+        .png()
+        .toFile(outputPath);
     }
-
-    // Generate new image with gray background
-    await sharp(inputBuffer)
-      .resize(200, 200, { fit: "contain", background: "#f0f0f0" })
-      .png()
-      .toFile(outputPath);
 
     htmlImages.push(
       `<img src="assets/generated-images/${fileName}" alt="${alt}" width="200" style="border-radius:8px;" />`
