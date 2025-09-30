@@ -50,8 +50,8 @@
 <img src="https://cdn.simpleicons.org/apache" alt="apache" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/zod" alt="zod" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/arduino" alt="arduino" width="32" style="border-radius: 8px;" />
-<img src="https://cdn.simpleicons.org/github" alt="github" width="32" style="border-radius: 8px;" />
 <img src="https://m9mv2a6pya.ufs.sh/f/W9HqZMlcXCSfCqMH29gncWmaPg8GTnO3xKjof5edwN0XEYVh" alt="W9HqZMlcXCSfCqMH29gncWmaPg8GTnO3xKjof5edwN0XEYVh" width="32" style="border-radius: 8px;" />
+<img src="https://cdn.simpleicons.org/github" alt="github" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/npm" alt="npm" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/pnpm" alt="pnpm" width="32" style="border-radius: 8px;" />
 </div>
