@@ -31,10 +31,14 @@
 <img src="https://cdn.simpleicons.org/django" alt="django" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/python" alt="python" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/react" alt="react" width="32" style="border-radius: 8px;" />
+<img src="https://unpkg.com/feather-icons/dist/icons/message-square.svg" alt="message-square.svg" width="32" style="border-radius: 8px;" />
+<img src="https://unpkg.com/feather-icons/dist/icons/edit-3.svg" alt="edit-3.svg" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/postgresql" alt="postgresql" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/mysql" alt="mysql" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/sqlite" alt="sqlite" width="32" style="border-radius: 8px;" />
+<img src="https://cdn.simpleicons.org/gnubash" alt="gnubash" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/html5" alt="html5" width="32" style="border-radius: 8px;" />
+<img src="https://m9mv2a6pya.ufs.sh/f/W9HqZMlcXCSf9vN77p3Dj4NfdLUvq3cZgz6pubTshKyeoBVw" alt="W9HqZMlcXCSf9vN77p3Dj4NfdLUvq3cZgz6pubTshKyeoBVw" width="32" style="border-radius: 8px;" />
 <img src="https://m9mv2a6pya.ufs.sh/f/W9HqZMlcXCSfvH4gw9jDfraKjJQgNYemFl0uOyXqS6BnhwCP" alt="W9HqZMlcXCSfvH4gw9jDfraKjJQgNYemFl0uOyXqS6BnhwCP" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/nodedotjs" alt="nodedotjs" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/php" alt="php" width="32" style="border-radius: 8px;" />
@@ -44,6 +48,7 @@
 <img src="https://cdn.simpleicons.org/linux" alt="linux" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/ubuntu" alt="ubuntu" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/openai" alt="openai" width="32" style="border-radius: 8px;" />
+<img src="https://cdn.simpleicons.org/yaml" alt="yaml" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/tailwindcss" alt="tailwindcss" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/markdown" alt="markdown" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/docker" alt="docker" width="32" style="border-radius: 8px;" />
@@ -66,6 +71,7 @@
 <img src="https://cdn.simpleicons.org/wolframlanguage" alt="wolframlanguage" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/wolframmathematica" alt="wolframmathematica" width="32" style="border-radius: 8px;" />
 <img src="https://m9mv2a6pya.ufs.sh/f/W9HqZMlcXCSf0qFfQE5gypH8qdJC1LjbUioscP6wenQT9KXM" alt="W9HqZMlcXCSf0qFfQE5gypH8qdJC1LjbUioscP6wenQT9KXM" width="32" style="border-radius: 8px;" />
+<img src="https://cdn.simpleicons.org/json" alt="json" width="32" style="border-radius: 8px;" />
 </div>
 <!-- IMAGES-END -->
 
