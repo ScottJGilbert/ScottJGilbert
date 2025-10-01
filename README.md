@@ -54,6 +54,13 @@
 <img src="https://cdn.simpleicons.org/github" alt="github" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/npm" alt="npm" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/pnpm" alt="pnpm" width="32" style="border-radius: 8px;" />
+<img src="https://cdn.simpleicons.org/kicad" alt="kicad" width="32" style="border-radius: 8px;" />
+<img src="https://cdn.simpleicons.org/c" alt="c" width="32" style="border-radius: 8px;" />
+<img src="https://cdn.simpleicons.org/cplusplus" alt="cplusplus" width="32" style="border-radius: 8px;" />
+<img src="https://cdn.simpleicons.org/composer" alt="composer" width="32" style="border-radius: 8px;" />
+<img src="https://cdn.simpleicons.org/amd" alt="amd" width="32" style="border-radius: 8px;" />
+<img src="https://cdn.simpleicons.org/nxp" alt="nxp" width="32" style="border-radius: 8px;" />
+<img src="https://cdn.simpleicons.org/phpmyadmin" alt="phpmyadmin" width="32" style="border-radius: 8px;" />
 </div>
 <!-- IMAGES-END -->
 
