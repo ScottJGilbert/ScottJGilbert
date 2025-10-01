@@ -25,6 +25,7 @@
 
 ### My skills<!-- IMAGES-START -->
 <div style="display:flex; flex-wrap:wrap; border-radius: 8px;">
+<img src="https://unpkg.com/feather-icons/dist/icons/databasesvg" alt="databasesvg" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/typescript" alt="typescript" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/javascript" alt="javascript" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/django" alt="django" width="32" style="border-radius: 8px;" />
@@ -61,6 +62,10 @@
 <img src="https://cdn.simpleicons.org/amd" alt="amd" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/nxp" alt="nxp" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/phpmyadmin" alt="phpmyadmin" width="32" style="border-radius: 8px;" />
+<img src="https://cdn.simpleicons.org/wolfram" alt="wolfram" width="32" style="border-radius: 8px;" />
+<img src="https://cdn.simpleicons.org/wolframlanguage" alt="wolframlanguage" width="32" style="border-radius: 8px;" />
+<img src="https://cdn.simpleicons.org/wolframmathematica" alt="wolframmathematica" width="32" style="border-radius: 8px;" />
+<img src="https://m9mv2a6pya.ufs.sh/f/W9HqZMlcXCSf0qFfQE5gypH8qdJC1LjbUioscP6wenQT9KXM" alt="W9HqZMlcXCSf0qFfQE5gypH8qdJC1LjbUioscP6wenQT9KXM" width="32" style="border-radius: 8px;" />
 </div>
 <!-- IMAGES-END -->
 
