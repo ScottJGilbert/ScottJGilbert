@@ -77,6 +77,7 @@
 <img src="https://unpkg.com/feather-icons/dist/icons/image.svg" alt="image.svg" width="32" style="border-radius: 8px;" />
 <img src="https://unpkg.com/feather-icons/dist/icons/database.svg" alt="database.svg" width="32" style="border-radius: 8px;" />
 <img src="https://unpkg.com/feather-icons/dist/icons/hard-drive.svg" alt="hard-drive.svg" width="32" style="border-radius: 8px;" />
+<img src="https://cdn.simpleicons.org/wordpress" alt="wordpress" width="32" style="border-radius: 8px;" />
 </div>
 <!-- IMAGES-END -->
 
