@@ -28,7 +28,6 @@
 <img src="https://cdn.simpleicons.org/typescript" alt="typescript" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/javascript" alt="javascript" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/django" alt="django" width="32" style="border-radius: 8px;" />
-<img src="https://cdn.simpleicons.org/python" alt="python" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/react" alt="react" width="32" style="border-radius: 8px;" />
 <img src="https://unpkg.com/feather-icons/dist/icons/message-square.svg" alt="message-square.svg" width="32" style="border-radius: 8px;" />
 <img src="https://unpkg.com/feather-icons/dist/icons/edit-3.svg" alt="edit-3.svg" width="32" style="border-radius: 8px;" />
@@ -44,7 +43,6 @@
 <img src="https://cdn.simpleicons.org/vercel" alt="vercel" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/nextdotjs" alt="nextdotjs" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/git" alt="git" width="32" style="border-radius: 8px;" />
-<img src="https://cdn.simpleicons.org/linux" alt="linux" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/ubuntu" alt="ubuntu" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/openai" alt="openai" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/yaml" alt="yaml" width="32" style="border-radius: 8px;" />
@@ -78,6 +76,9 @@
 <img src="https://unpkg.com/feather-icons/dist/icons/database.svg" alt="database.svg" width="32" style="border-radius: 8px;" />
 <img src="https://unpkg.com/feather-icons/dist/icons/hard-drive.svg" alt="hard-drive.svg" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/wordpress" alt="wordpress" width="32" style="border-radius: 8px;" />
+<img src="https://cdn.simpleicons.org/flask" alt="flask" width="32" style="border-radius: 8px;" />
+<img src="https://m9mv2a6pya.ufs.sh/f/W9HqZMlcXCSfKw2ebcDvubNJysn786wmXA0UDHxzIZMYSotg" alt="W9HqZMlcXCSfKw2ebcDvubNJysn786wmXA0UDHxzIZMYSotg" width="32" style="border-radius: 8px;" />
+<img src="https://m9mv2a6pya.ufs.sh/f/W9HqZMlcXCSfHOMSVzq7j2dCwemRUNlzQhFXrvxGb6VPuOWI" alt="W9HqZMlcXCSfHOMSVzq7j2dCwemRUNlzQhFXrvxGb6VPuOWI" width="32" style="border-radius: 8px;" />
 </div>
 <!-- IMAGES-END -->
 
