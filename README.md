@@ -1,19 +1,17 @@
 <h1 align="center">Hi there 👋, I'm Scott!</h1>
 <h3 align="center">I'm an undergraduate computer engineering student at the University of Illinois Urbana-Champaign.</h3>
 
-
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=scottjgilbert&label=Profile%20views&color=0e75b6&style=flat" alt="scottjgilbert" /> </p>
 
+- 🔭 I’m currently working on **surviving college**
 
-- 🔭 I’m currently working on **updating my portfolio**
-
-- 🌱 I’m currently learning **C, C++, and just general electronics design** (and a lot more)
+- 🌱 I’m currently learning **C, C++, electronics design, backend development, and a lot more**
 
 - 👨‍💻 All of my projects are available at [https://scott-gilbert.vercel.app/projects](https://scott-gilbert.vercel.app/projects)
 
 - 📝 I sometimes write articles on [https://scott-gilbert.vercel.app/blog](https://scott-gilbert.vercel.app/blog)
 
-- 💬 Ask me about **Full-Stack Development or Arduinoes**
+- 💬 Ask me about **Full-Stack Development, Arduinoes, or anything educational**
 
 - 📫 How to reach me: **scott7gilbert@gmail.com**
 
@@ -24,6 +22,7 @@
 ---
 
 ### My skills<!-- IMAGES-START -->
+
 <div style="display:flex; flex-wrap:wrap; border-radius: 8px;">
 <img src="https://cdn.simpleicons.org/typescript" alt="typescript" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/javascript" alt="javascript" width="32" style="border-radius: 8px;" />
@@ -87,6 +86,7 @@
 ### Recent blog posts
 
 <!-- BLOG-POST-LIST:START -->
+
 - [The Start of College](https://scott-gilbert.vercel.app/blog/the-start-of-college)
 <!-- BLOG-POST-LIST:END -->
 
