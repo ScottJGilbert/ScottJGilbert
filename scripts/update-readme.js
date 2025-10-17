@@ -15,6 +15,14 @@ async function main() {
   // Extract image URLs and optional alt text (fallback to filename)
   const htmlImages = data
     .map((item) => {
+      if (
+        !(
+          item.categories.contains("software") ||
+          item.categories.contains("hardware")
+        )
+      )
+        return;
+
       let url = item.image_url;
 
       if (url.includes("white")) {
