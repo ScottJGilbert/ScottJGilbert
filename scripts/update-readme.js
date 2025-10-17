@@ -19,7 +19,7 @@ async function main() {
 
       if (url.includes("white")) {
         url = url.slice(0, url.indexOf("white") - 1);
-        url += "gray";
+        url += "/gray";
       }
 
       // Use last part of URL as alt if not provided
