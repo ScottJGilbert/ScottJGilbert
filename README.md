@@ -27,8 +27,8 @@
 <img src="https://cdn.simpleicons.org/javascript" alt="javascript" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/django/gray" alt="gray" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/react" alt="react" width="32" style="border-radius: 8px;" />
-<img src="https://unpkg.com/feather-icons/dist/icons/message-square.svg" alt="message-square.svg" width="32" style="border-radius: 8px;" />
-<img src="https://unpkg.com/feather-icons/dist/icons/edit-3.svg" alt="edit-3.svg" width="32" style="border-radius: 8px;" />
+
+
 <img src="https://cdn.simpleicons.org/postgresql/gray" alt="gray" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/mysql/gray" alt="gray" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/sqlite/gray" alt="gray" width="32" style="border-radius: 8px;" />
@@ -69,10 +69,10 @@
 <img src="https://cdn.simpleicons.org/json/gray" alt="gray" width="32" style="border-radius: 8px;" />
 <img src="https://m9mv2a6pya.ufs.sh/f/W9HqZMlcXCSfudMOyQgMkg2lpT0NAcLt8VXbi3yfUGSPnRaJ" alt="W9HqZMlcXCSfudMOyQgMkg2lpT0NAcLt8VXbi3yfUGSPnRaJ" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/eslint" alt="eslint" width="32" style="border-radius: 8px;" />
-<img src="https://unpkg.com/feather-icons/dist/icons/layers.svg" alt="layers.svg" width="32" style="border-radius: 8px;" />
-<img src="https://unpkg.com/feather-icons/dist/icons/image.svg" alt="image.svg" width="32" style="border-radius: 8px;" />
-<img src="https://unpkg.com/feather-icons/dist/icons/database.svg" alt="database.svg" width="32" style="border-radius: 8px;" />
-<img src="https://unpkg.com/feather-icons/dist/icons/hard-drive.svg" alt="hard-drive.svg" width="32" style="border-radius: 8px;" />
+
+
+
+
 <img src="https://cdn.simpleicons.org/wordpress" alt="wordpress" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/flask" alt="flask" width="32" style="border-radius: 8px;" />
 <img src="https://m9mv2a6pya.ufs.sh/f/W9HqZMlcXCSfKw2ebcDvubNJysn786wmXA0UDHxzIZMYSotg" alt="W9HqZMlcXCSfKw2ebcDvubNJysn786wmXA0UDHxzIZMYSotg" width="32" style="border-radius: 8px;" />
