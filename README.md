@@ -23,9 +23,11 @@
 
 ### My skills<!-- IMAGES-START -->
 <div style="display:flex; flex-wrap:wrap; border-radius: 8px;">
+<img src="https://cdn.simpleicons.org/blender" alt="blender" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/typescript" alt="typescript" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/javascript" alt="javascript" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/django/gray" alt="gray" width="32" style="border-radius: 8px;" />
+<img src="https://m9mv2a6pya.ufs.sh/f/W9HqZMlcXCSfJZMAmhC5xrIX2q0NoPUDlZ9HBF8zYept7OCV" alt="W9HqZMlcXCSfJZMAmhC5xrIX2q0NoPUDlZ9HBF8zYept7OCV" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/react" alt="react" width="32" style="border-radius: 8px;" />
 
 
@@ -70,6 +72,8 @@
 <img src="https://m9mv2a6pya.ufs.sh/f/W9HqZMlcXCSfudMOyQgMkg2lpT0NAcLt8VXbi3yfUGSPnRaJ" alt="W9HqZMlcXCSfudMOyQgMkg2lpT0NAcLt8VXbi3yfUGSPnRaJ" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/eslint" alt="eslint" width="32" style="border-radius: 8px;" />
 
+<img src="https://m9mv2a6pya.ufs.sh/f/W9HqZMlcXCSfvx3ZCujDfraKjJQgNYemFl0uOyXqS6BnhwCP" alt="W9HqZMlcXCSfvx3ZCujDfraKjJQgNYemFl0uOyXqS6BnhwCP" width="32" style="border-radius: 8px;" />
+<img src="https://m9mv2a6pya.ufs.sh/f/W9HqZMlcXCSfjC4jR70gJiTbUAL9ymXGCZwFhBlEI3d1svcP" alt="W9HqZMlcXCSfjC4jR70gJiTbUAL9ymXGCZwFhBlEI3d1svcP" width="32" style="border-radius: 8px;" />
 
 
 
