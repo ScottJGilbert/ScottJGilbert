@@ -19,6 +19,8 @@ async function main() {
         return;
 
       let url = item.image_url;
+      
+      if (!url) return;
 
       if (url.includes("white")) {
         url = url.slice(0, url.indexOf("white") - 1);
