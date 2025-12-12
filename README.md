@@ -1,7 +1,14 @@
-<h1 align="center">Hi there 👋, I'm Scott!</h1>
-<h3 align="center">I'm an undergraduate computer engineering student at the University of Illinois Urbana-Champaign.</h3>
+<img align='right' src='https://scott-gilbert.vercel.app/profileIcon.svg' width='310' height='310'>
 
-<p align="center"> <img src="https://komarev.com/ghpvc/?username=scottjgilbert&label=Profile%20views&color=0e75b6&style=flat" alt="scottjgilbert" /> </p>
+# Hi there 👋, I'm Scott!
+<h3>I'm an undergraduate computer engineering student at the University of Illinois Urbana-Champaign.</h3>
+
+<p><img src="https://komarev.com/ghpvc/?username=scottjgilbert&label=Profile%20views&color=0e75b6&style=flat" alt="scottjgilbert" /> </p>
+
+<div>
+  <a href="mailto:scott7gilbert@gmail.com"><img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://linkedin.com/in/scott-j-gilbert"><img alt="Linkedin" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+</div>
 
 - 🔭 I’m currently working on **surviving college**
 
@@ -12,8 +19,6 @@
 - 📝 I sometimes write articles on [https://scott-gilbert.vercel.app/blog](https://scott-gilbert.vercel.app/blog)
 
 - 💬 Ask me about **Full-Stack Development, Arduinoes, or anything educational**
-
-- 📫 How to reach me: **scott7gilbert@gmail.com**
 
 - 📄 View my resume: [https://scott-gilbert.vercel.app/resume](https://scott-gilbert.vercel.app/resume)
 
