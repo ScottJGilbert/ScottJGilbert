@@ -87,11 +87,13 @@
 
 <img src="https://m9mv2a6pya.ufs.sh/f/W9HqZMlcXCSfvx3ZCujDfraKjJQgNYemFl0uOyXqS6BnhwCP" alt="W9HqZMlcXCSfvx3ZCujDfraKjJQgNYemFl0uOyXqS6BnhwCP" width="32" style="border-radius: 8px;" />
 <img src="https://m9mv2a6pya.ufs.sh/f/W9HqZMlcXCSfjC4jR70gJiTbUAL9ymXGCZwFhBlEI3d1svcP" alt="W9HqZMlcXCSfjC4jR70gJiTbUAL9ymXGCZwFhBlEI3d1svcP" width="32" style="border-radius: 8px;" />
+<img src="https://m9mv2a6pya.ufs.sh/f/W9HqZMlcXCSfcleRxYOJAbDPpiSmjMrW94U02KvG581uYqER" alt="W9HqZMlcXCSfcleRxYOJAbDPpiSmjMrW94U02KvG581uYqER" width="32" style="border-radius: 8px;" />
 
 
 
 <img src="https://cdn.simpleicons.org/wordpress" alt="wordpress" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/flask" alt="flask" width="32" style="border-radius: 8px;" />
+
 <img src="https://m9mv2a6pya.ufs.sh/f/W9HqZMlcXCSfKw2ebcDvubNJysn786wmXA0UDHxzIZMYSotg" alt="W9HqZMlcXCSfKw2ebcDvubNJysn786wmXA0UDHxzIZMYSotg" width="32" style="border-radius: 8px;" />
 <img src="https://m9mv2a6pya.ufs.sh/f/W9HqZMlcXCSfHOMSVzq7j2dCwemRUNlzQhFXrvxGb6VPuOWI" alt="W9HqZMlcXCSfHOMSVzq7j2dCwemRUNlzQhFXrvxGb6VPuOWI" width="32" style="border-radius: 8px;" />
 
