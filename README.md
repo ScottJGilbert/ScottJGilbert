@@ -58,7 +58,6 @@
 <img src="https://cdn.simpleicons.org/nextdotjs/gray" alt="gray" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/git" alt="git" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/ubuntu" alt="ubuntu" width="32" style="border-radius: 8px;" />
-<img src="https://cdn.simpleicons.org/openai/gray" alt="gray" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/yaml" alt="yaml" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/tailwindcss" alt="tailwindcss" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/markdown/gray" alt="gray" width="32" style="border-radius: 8px;" />
