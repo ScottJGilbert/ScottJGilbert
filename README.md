@@ -31,7 +31,7 @@
 
 - 💬 Ask me about **Full-Stack Development, Arduinoes, or anything educational**
 
-- ⚡ Fun fact: **I can play five different national anthems on the trombone!**
+- ⚡ Fun fact: **I can play five national anthems on the trombone from memory!** I am also a member of UIUC's marching band, the Marching Illini.
 
 ---
 
