@@ -81,7 +81,6 @@
 <img src="https://cdn.simpleicons.org/phpmyadmin" alt="phpmyadmin" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/wolfram" alt="wolfram" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/wolframlanguage" alt="wolframlanguage" width="32" style="border-radius: 8px;" />
-<img src="https://cdn.simpleicons.org/wolframmathematica" alt="wolframmathematica" width="32" style="border-radius: 8px;" />
 <img src="https://m9mv2a6pya.ufs.sh/f/W9HqZMlcXCSf0qFfQE5gypH8qdJC1LjbUioscP6wenQT9KXM" alt="W9HqZMlcXCSf0qFfQE5gypH8qdJC1LjbUioscP6wenQT9KXM" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/json/gray" alt="gray" width="32" style="border-radius: 8px;" />
 <img src="https://m9mv2a6pya.ufs.sh/f/W9HqZMlcXCSfudMOyQgMkg2lpT0NAcLt8VXbi3yfUGSPnRaJ" alt="W9HqZMlcXCSfudMOyQgMkg2lpT0NAcLt8VXbi3yfUGSPnRaJ" width="32" style="border-radius: 8px;" />
@@ -100,6 +99,7 @@
 <img src="https://m9mv2a6pya.ufs.sh/f/W9HqZMlcXCSfHOMSVzq7j2dCwemRUNlzQhFXrvxGb6VPuOWI" alt="W9HqZMlcXCSfHOMSVzq7j2dCwemRUNlzQhFXrvxGb6VPuOWI" width="32" style="border-radius: 8px;" />
 
 <img src="https://cdn.simpleicons.org/betterauth" alt="betterauth" width="32" style="border-radius: 8px;" />
+<img src="https://cdn.simpleicons.org/wolframmathematica" alt="wolframmathematica" width="32" style="border-radius: 8px;" />
 </div>
 <!-- IMAGES-END -->
 
