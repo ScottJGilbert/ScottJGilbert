@@ -96,10 +96,10 @@
 <img src="https://cdn.simpleicons.org/flask" alt="flask" width="32" style="border-radius: 8px;" />
 
 <img src="https://m9mv2a6pya.ufs.sh/f/W9HqZMlcXCSfKw2ebcDvubNJysn786wmXA0UDHxzIZMYSotg" alt="W9HqZMlcXCSfKw2ebcDvubNJysn786wmXA0UDHxzIZMYSotg" width="32" style="border-radius: 8px;" />
-<img src="https://m9mv2a6pya.ufs.sh/f/W9HqZMlcXCSfHOMSVzq7j2dCwemRUNlzQhFXrvxGb6VPuOWI" alt="W9HqZMlcXCSfHOMSVzq7j2dCwemRUNlzQhFXrvxGb6VPuOWI" width="32" style="border-radius: 8px;" />
 
 <img src="https://cdn.simpleicons.org/betterauth" alt="betterauth" width="32" style="border-radius: 8px;" />
 <img src="https://cdn.simpleicons.org/wolframmathematica" alt="wolframmathematica" width="32" style="border-radius: 8px;" />
+<img src="https://m9mv2a6pya.ufs.sh/f/W9HqZMlcXCSfuRQBT0MgMkg2lpT0NAcLt8VXbi3yfUGSPnRa" alt="W9HqZMlcXCSfuRQBT0MgMkg2lpT0NAcLt8VXbi3yfUGSPnRa" width="32" style="border-radius: 8px;" />
 </div>
 <!-- IMAGES-END -->
 
