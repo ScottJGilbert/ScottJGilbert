@@ -108,6 +108,7 @@
 ### Recent blog posts
 
 <!-- BLOG-POST-LIST:START -->
+- [My New Year&#39;s Resolution](https://scott-gilbert.vercel.app/blog/my-new-years-resolution)
 - [The Start of College](https://scott-gilbert.vercel.app/blog/the-start-of-college)
 <!-- BLOG-POST-LIST:END -->
 
