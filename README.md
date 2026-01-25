@@ -1,4 +1,4 @@
-<img align='right' src='https://scott-gilbert.vercel.app/profileIcon.svg' width='310' height='310'>
+<img align='right' src='https://scottgilbert.dev/profileIcon.svg' width='310' height='310'>
 
 <div id="user-content-toc">
   <ul style="list-style: none;">
@@ -12,15 +12,15 @@
 <p><img src="https://komarev.com/ghpvc/?username=scottjgilbert&label=Profile%20views&color=0e75b6&style=flat" alt="scottjgilbert" /> </p>
 
 <div>
-  <a href="mailto:scott7gilbert@gmail.com"><img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="mailto:hello@scottgilbert.dev"><img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="https://linkedin.com/in/scott-j-gilbert"><img alt="Linkedin" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-   <a href="https://scott-gilbert.vercel.app/projects">
+   <a href="https://scottgilbert.dev/projects">
     <img alt="Projects" src="https://img.shields.io/badge/Projects-0EA5E9?style=for-the-badge&labelColor=0EA5E9" />
   </a>
-  <a href="https://scott-gilbert.vercel.app/blog">
+  <a href="https://scottgilbert.dev/blog">
     <img alt="Blog" src="https://img.shields.io/badge/Blog-7B61FF?style=for-the-badge&labelColor=7B61FF" />
   </a>
-  <a href="https://scott-gilbert.vercel.app/resume">
+  <a href="https://scottgilbert.dev/resume">
     <img alt="Resume" src="https://img.shields.io/badge/Resume-4B5563?style=for-the-badge&labelColor=4B5563" />
   </a>
 </div>
