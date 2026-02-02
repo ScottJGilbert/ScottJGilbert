@@ -2,7 +2,7 @@
 import fs from "fs";
 import path from "path";
 
-const API_URL = "https://scott-gilbert.vercel.app/api/skills/fetch-skills";
+const API_URL = "https://scottgilbert.dev/api/skills/fetch-skills";
 
 async function main() {
   const readmePath = path.resolve("README.md");
