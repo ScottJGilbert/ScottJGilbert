@@ -108,6 +108,7 @@
 ### Recent blog posts
 
 <!-- BLOG-POST-LIST:START -->
+- [Good Ways to Serve](https://scottgilbert.dev/blog/good-ways-to-serve)
 - [Three Fundamental Reasons to Serve](https://scottgilbert.dev/blog/three-fundamental-reasons-to-serve)
 - [My New Year&#39;s Resolution](https://scottgilbert.dev/blog/my-new-years-resolution)
 - [The Start of College](https://scottgilbert.dev/blog/the-start-of-college)
