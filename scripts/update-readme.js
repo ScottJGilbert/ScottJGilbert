@@ -2,7 +2,7 @@
 import fs from "fs";
 import path from "path";
 
-const API_URL = "https://scott-gilbert.vercel.app/api/fetch-skills";
+const API_URL = "https://scottgilbert.dev/api/skills/fetch-skills";
 
 async function main() {
   const readmePath = path.resolve("README.md");
@@ -19,6 +19,8 @@ async function main() {
         return;
 
       let url = item.image_url;
+      
+      if (!url) return;
 
       if (url.includes("white")) {
         url = url.slice(0, url.indexOf("white") - 1);
