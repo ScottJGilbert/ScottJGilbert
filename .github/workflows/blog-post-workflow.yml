@@ -8,6 +8,7 @@ permissions:
 
 jobs:
   update-readme-with-blog:
+    if: ${{ false }}
     name: Update this repo's README with latest blog posts
     runs-on: ubuntu-latest
     steps:
