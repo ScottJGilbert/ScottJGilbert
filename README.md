@@ -29,8 +29,6 @@
 
 - 🌱 I’m currently learning **C, C++, electronics design, backend development, and a lot more**
 
-- 💬 Ask me about **Full-Stack Development, Arduinoes, or anything educational**
+- 💬 Ask me about **Full-Stack Development, Arduinoes, Solar Power, or really anything you want**
 
-- 📄 View my resume: [https://scottgilbert.dev/resume.pdf](https://scottgilbert.dev/resume.pdf)
-
-- ⚡ Fun fact: **I'm a member of UIUC marching band, the Marching Illini.**
+- ⚡ Fun fact: **I'm a member of UIUC's marching band, the Marching Illini.**
