@@ -1,4 +1,4 @@
-<img align='center' src='https://scottgilbert.dev/icon.svg' width='310' height='310'>
+<img align='right' src='https://scottgilbert.dev/icon.svg' width='310' height='310'>
 
 <div id="user-content-toc">
   <ul style="list-style: none;">
@@ -17,7 +17,7 @@
    <a href="https://scottgilbert.dev/projects">
     <img alt="Projects" src="https://img.shields.io/badge/Projects-0EA5E9?style=for-the-badge&labelColor=0EA5E9" />
   </a>
-  <a href="https://scottgilbert.dev/blog">
+  <a href="https://blog.scottgilbert.dev">
     <img alt="Blog" src="https://img.shields.io/badge/Blog-7B61FF?style=for-the-badge&labelColor=7B61FF" />
   </a>
   <a href="https://scottgilbert.dev/resume">
