@@ -1,4 +1,4 @@
-<img align='right' src='https://scottgilbert.dev/profileIcon.svg' width='310' height='310'>
+<img align='right' src='https://scottgilbert.dev/icon.svg' width='310' height='310'>
 
 <div id="user-content-toc">
   <ul style="list-style: none;">
