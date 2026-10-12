@@ -9,7 +9,7 @@
 </div>
 <h3>I'm an undergraduate computer engineering student at the University of Illinois Urbana-Champaign.</h3>
 
-<p><img src="https://komarev.com/ghpvc/?username=scottjgilbert&label=Profile%20views&color=0e75b6&style=flat" alt="scottjgilbert" /> </p>
+<!-- <p><img src="https://komarev.com/ghpvc/?username=scottjgilbert&label=Profile%20views&color=0e75b6&style=flat" alt="scottjgilbert" /> </p> -->
 
 <div>
   <a href="mailto:hello@scottgilbert.dev"><img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
